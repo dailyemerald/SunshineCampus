@@ -3,6 +3,10 @@ body {
 	margin: 0;
 	background: #111;
 }
+.about {
+	background: #FEFEFE;
+}
+
 .top-container {
 	margin: 0;
 	padding: 0;	
@@ -69,7 +73,12 @@ body {
 .main-inner {
 	color: #FFF;
 	font-family: 'Courier';
+}
 
+.about-inner {
+	color: #222;
+	width: 500px;
+	margin: 0 auto;
 }
 
 .donate-button-wrapper {
@@ -98,12 +107,23 @@ body {
           border-radius: 6px;
 }
 
+.how-it-works {
+	text-decoration: none;
+	color: #0044cc;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 900;
+	text-shadow: 0px 0px 7px rgba(255,255,255,1.0);
+	padding-top: 30px;
+	display: block;
+}
+
 @media (max-width: 700px) {
   .top-container, .main-container {
   	
   }
 
-  .top-inner, .main-inner {
+  .top-inner, .main-inner, .about-inner	 {
     width: 80%;    
     margin: 0 auto;
     padding-left: 0;
