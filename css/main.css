@@ -9,7 +9,7 @@ body {
 	background: #FFF;
 	background-image: url('/images/header-bg.png');
 	background-position: center center;
-    background-size: auto 100%;
+    background-size: 100% auto;
 	width: 100%;	
 }
 
@@ -26,15 +26,13 @@ body {
 
 .top-inner {
 	padding: 30px;
+	padding-top: 50px;
 	text-align: center;
-
 }
 
 .main-inner {
 	padding: 50px;
 }
-
-
 
 .redacted {
 	display: inline-block;	
@@ -48,12 +46,13 @@ body {
 	font-size: 27px;
 	font-weight: 600;
 	text-shadow: 0px 0px 4px rgba(255,255,255,0.9);
+
 }
 .intro {
 	font-family: 'Courier';
 	font-size: 20px;
 	line-height: 1.5em;
-	text-shadow: 0px 0px 2px rgba(255,255,255,0.9);
+	text-shadow: 1px 1px 4px rgba(255,255,255,0.9);
 }
 
 .main-inner h2 {
@@ -70,9 +69,10 @@ body {
 }
 
 .donate-button-wrapper {
-	padding-top: 40px;
+	padding-top: 20px;
 }
 .donate-button {
+  /* this is the Bootstrap button */
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #006dcc;
