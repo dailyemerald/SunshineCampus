@@ -1,5 +1,109 @@
-.main-container {
-	width: 500px;
-	margin: 0 auto;
-	text-align: center;
+body {
+	padding: 0;
+	margin: 0;
+	background: #111;
 }
+.top-container {
+	margin: 0;
+	padding: 0;	
+	background: #FFF;
+	background-image: url('/images/header-bg.png');
+	background-position: center center;
+    background-size: auto 100%;
+	width: 100%;	
+}
+
+.logo {
+	width: 50px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.top-inner, .main-inner {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.top-inner {
+	padding: 30px;
+	text-align: center;
+
+}
+
+.main-inner {
+	padding: 50px;
+}
+
+
+
+.redacted {
+	display: inline-block;	
+	width: 100px;
+	height: 18px;	
+	background: #111;
+}
+
+.headline h2 {
+	font-family: 'Exo';
+	font-size: 27px;
+	font-weight: 600;
+	text-shadow: 0px 0px 4px rgba(255,255,255,0.9);
+}
+.intro {
+	font-family: 'Courier';
+	font-size: 20px;
+	line-height: 1.5em;
+	text-shadow: 0px 0px 2px rgba(255,255,255,0.9);
+}
+
+.main-inner h2 {
+	font-family: 'Exo';
+	font-size: 27px;
+	font-weight: 600;
+	color: #FFF;
+	text-transform: uppercase;
+	margin: 0;
+}
+.main-inner {
+	color: #FFF;
+	font-family: 'Courier';
+}
+
+.donate-button-wrapper {
+	padding-top: 40px;
+}
+.donate-button {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  *background-color: #0044cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  padding: 11px 19px;
+  font-size: 17.5px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+@media (max-width: 700px) {
+  .top-container, .main-container {
+  	padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .top-inner, .main-inner {
+    width: 100%;
+    
+  }
+}
+

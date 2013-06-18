@@ -6,13 +6,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>SunshineCampus: support investigative student journalism at the University of Oregon</title>
+        <meta name="description" content="SunshineCampus is a new way to fund investigative reporting in college newsrooms. Universities send students a bill to access public records. They need your help to keep open records open.">
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/htmlbp.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Exo:400,600,700,800' rel='stylesheet' type='text/css'>
 
         <!--[if lt IE 9]>
             <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
@@ -23,20 +24,35 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
+        <div class="top-container">
+            <div class="top-inner">
+                <img class="logo" src="images/logo.png" />
+                <div class="headline">                
+                    <h2>Support investigative student journalism</h2>
+                </div>
+                <div class="intro">			
+                    SunshineCampus is a new way to fund investigative reporting in <div class="redacted"></div> college newsrooms. Universities send students a bill to access public records. <div class="redacted" style="width:185px"></div> They need your help to keep open records open.
+                </div>
+                <div class="donate-button-wrapper">
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="48U2TPTCPXHEE">
+                        <button type="submit" class="donate-button">Donate</button>
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                </div>
+            </div>            
+        </div>
+
         <div class="main-container">
-			
-			<h2>SunshineCampus</h2>
-			<p>SunshineCampus is a new way to fund investigative reporting in college newsrooms.</p>
+            <div class="main-inner">
 
-            <div class="donate-button">
-    			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    				<input type="hidden" name="cmd" value="_s-xclick">
-    				<input type="hidden" name="hosted_button_id" value="48U2TPTCPXHEE">
-    				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    			</form>
+                <h2>Donate today</h2>
+                <h2>Be a public records hero</h2>
+ 
+                <p>Our readers want us to produce more serious public service journalism. We want to produce that kind of work, too, but we’re a small nonprofit company. We don’t have the budget to pay our university $100 to respond to simple public records requests. If you invest in our SunshineCampus fund, we’ll deliver higher impact stories that seek to make our school better.</p>
+                
             </div>
-
         </div> <!-- .main-container -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -45,10 +61,13 @@
         <script src="js/main.js"></script>
 
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-41829484-1', 'sunshinecampus.com');
+            ga('send', 'pageview');
         </script>
     </body>
 </html>
