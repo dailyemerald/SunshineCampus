@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	background: #111;
 }
-.about {
+.home {
 	background: #FEFEFE;
 }
 
@@ -75,10 +75,12 @@ body {
 	font-family: 'Courier';
 }
 
-.about-inner {
+.home-inner {
 	color: #222;
 	width: 500px;
 	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .donate-button-wrapper {
@@ -123,10 +125,11 @@ body {
   	
   }
 
-  .top-inner, .main-inner, .about-inner	 {
+  .top-inner, .main-inner, .home-inner	 {
     width: 80%;    
     margin: 0 auto;
     padding-left: 0;
+
     padding-right: 0;
   }
 }
