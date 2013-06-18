@@ -9,7 +9,7 @@ body {
 	background: #FFF;
 	background-image: url('/images/header-bg.png');
 	background-position: center center;
-    background-size: 100% auto;
+    background-size: auto 100%;
 	width: 100%;	
 }
 
@@ -52,7 +52,7 @@ body {
 	font-family: 'Courier';
 	font-size: 20px;
 	line-height: 1.5em;
-	text-shadow: 1px 1px 4px rgba(255,255,255,0.9);
+	text-shadow: 1px 1px 4px rgba(255,255,255,1.0);
 }
 
 .main-inner h2 {
@@ -96,14 +96,14 @@ body {
 
 @media (max-width: 700px) {
   .top-container, .main-container {
-  	padding: 0;
-    margin: 0;
-    width: 100%;
+  	
   }
 
   .top-inner, .main-inner {
-    width: 100%;
-    
+    width: 80%;    
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
